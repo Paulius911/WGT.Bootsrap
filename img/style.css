@@ -1,0 +1,350 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav {
+  margin: auto;
+  text-align: center;
+  max-width: 1160px;
+  width: 90%;
+}
+
+.nav nav {
+  padding: 45px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.rightside a {
+  cursor: pointer;
+}
+
+.rightside a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.rightside a.button {
+  background-color: #EA3799;
+  border-radius: 3px;
+  padding: 12px 10px;
+  cursor: pointer;
+  font-size: 10px;
+  color: white;
+}
+
+section {
+  margin: auto;
+  width: 80%;
+}
+
+section h1 {
+  font-size: 35px;
+  text-transform: capitalize;
+  justify-content: space-between;
+}
+
+section p {
+  color: gray;
+  line-height: 1.5;
+  padding-bottom: 105px;
+}
+
+section img {
+  margin-bottom: 115px;
+}
+
+section.middle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+section.middle .rightside {
+  padding-left: 223px;
+}
+
+section.middle .rightside p {
+  padding-bottom: 0;
+}
+
+section.mentoriai h1 {
+  text-align: center;
+}
+
+section.mentoriai p {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+section.mentoriai .fotos {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.mentoriai .fotos img {
+  margin-bottom: 25px;
+  text-align: center;
+  width: 150px;
+}
+
+section.mentoriai .fotos h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+section.mentoriai .fotos .mentoriai-foto {
+  width: 13%;
+  text-align: center;
+}
+
+section.mentoriai .fotos p {
+  margin-bottom: 0px;
+  padding-bottom: 200px;
+}
+
+section.kaip-veikia {
+  text-align: center;
+  width: 40%;
+  margin-bottom: 90px;
+}
+
+section.kaip-veikia p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+section.colored {
+  background-image: url(image/pink_bg.png);
+  display: flex;
+  background-size: cover;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+section.colored h1 {
+  color: white;
+}
+
+section.colored p {
+  padding-bottom: 0;
+  color: white;
+  font-size: 12px;
+}
+
+section.colored .kodel,
+.kada {
+  padding-top: 115px;
+  padding-bottom: 115px;
+  width: 32%;
+}
+
+section.colored .kodel {
+  padding-left: 145px;
+}
+
+section.colored .kada {
+  padding-right: 145px;
+}
+
+section.programa .eiga {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-bottom: 130px;
+}
+
+section.programa .eiga img {
+  margin-top: 90px;
+  width: 256px;
+  margin-bottom: 20px;
+}
+
+section.programa .eiga .eiga-foto {
+  width: 30%;
+  padding-right: 0;
+}
+
+section.programa .eiga .eiga-foto p {
+  padding-bottom: 0;
+}
+
+section.programa .eiga .eiga-foto h2 {
+  font-weight: bold;
+}
+
+section.programa h1 {
+  text-align: center;
+}
+
+section.smallwrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.smallwrap img {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+section.smallwrap .smallp {
+  width: 50%;
+}
+
+section.againteam {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  margin-bottom: 115px;
+}
+
+section.againteam .ateam {
+  width: 14%;
+}
+
+section.againteam .ateam:nth-child(8n + 2),
+section.againteam .ateam:nth-child(8n + 3),
+section.againteam .ateam:nth-child(8n + 4),
+section.againteam .ateam:nth-child(8n + 5),
+section.againteam .ateam:nth-child(8n + 7),
+section.againteam .ateam:nth-child(8n + 8) {
+  padding-left: 70px;
+}
+
+section.againteam img {
+  margin-bottom: 0;
+}
+
+section.againteam .ateam p {
+  padding-bottom: 0;
+  text-align: center;
+}
+
+section.againteam .icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  right: 9px;
+  padding-bottom: 50px;
+}
+
+section.againteam h2 {
+  text-align: center;
+}
+
+section.sponsor h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+section.registration {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 170px;
+}
+
+section.registration img {
+  max-width: 550px;
+  max-height: 650px;
+}
+
+section.registration .rightreg input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 20px 100px;
+  margin-bottom: 40px;
+  outline: none;
+}
+
+section.registration .rightreg b {
+  color: gray;
+}
+
+section.registration button {
+  padding: 15px 17px;
+  background-color: #EA3799;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+footer {
+  background-color: #243770;
+  color: white;
+}
+
+footer .inner {
+  width: 90%;
+  margin: auto;
+
+}
+footer .topfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  line-height: 1.5;
+
+}
+
+footer .inner .icon {
+  width: 15px;
+  height: 15px;
+}
+
+footer h3 {
+  font-size: 20px;
+  padding-top:
+}
+
+footer h4 {
+  padding-top: 50px;
+}
+
+footer .email {
+  padding-bottom: 50px;
+}
+
+footer .midinner a {
+  text-transform: uppercase;
+  color: lightgrey;
+}
+
+footer .midinner a:not(:last-child) {
+  margin-right: 25px;
+}
+
+footer .inner .rightinner img {
+  width: 25px;
+  height: 25px;
+}
+
+footer .inner .rightinner img:not(:last-child) {
+  margin-right: 15px;
+}
+
+footer .bottomfooter {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding:30px 0px;
+}
+
+footer a.dizainas {
+  padding-right: 20px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+footer .bottomfooter .bottomfooter-right {
+  color: grey;
+}

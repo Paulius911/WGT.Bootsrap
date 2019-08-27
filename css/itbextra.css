@@ -1,0 +1,524 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2b2b2b;
+}
+
+.header-inner {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: all 0.5s;
+}
+
+.logo-wrapper {
+  width: 100px;
+  transition: all 0.5s;
+}
+
+.logo-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.meniu-wrapper {
+  width: calc(100% - 100px);
+  padding-top: 10px;
+}
+
+.meniu-wrapper ul {
+  text-align: right;
+}
+
+.meniu-wrapper ul li {
+  display: inline-block;
+}
+
+.meniu-wrapper ul li a {
+  padding: 10px 25px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #111111;
+  transition: all 0.5s;
+}
+
+.meniu-wrapper ul li a:hover {
+  text-decoration: none;
+  color: #d12a7e;
+  transition: all 0.5s;
+}
+
+.meniu-wrapper ul li:last-child a {
+  background: #d02782;
+  color: #fff;
+  border-radius: 7px;
+  transition: all 0.5s;
+}
+
+.meniu-wrapper ul li:last-child a:hover {
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 10;
+}
+
+.main-website {
+  min-height: 3000px;
+  margin-top: 90px;
+}
+
+.empowering-text h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.empowering-text p {}
+
+.empowering-text {
+  margin-top: 65px;
+  margin-bottom: 105px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.columnabout-left h2 {
+  font-size: 36px;
+}
+
+.columnabout-left p {
+  font-size: 18px;
+}
+
+.columnabout-right p {
+  font-size: 17px;
+}
+
+.web-section {
+  padding: 65px 0px;
+}
+
+.sticky .logo-wrapper {
+  width: 70px;
+  transition: all 0.5s;
+  margin-top: 14px;
+}
+
+.sticky .meniu-wrapper ul li a {
+  padding: 10px 10px;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 12px;
+  transition: all 0.5s;
+}
+
+.sticky .meniu-wrapper {
+  width: calc(100% - 50px);
+}
+
+.sticky .header-inner {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 0.5s;
+}
+
+.container {
+  transition: all 0.5s;
+}
+
+.button-itb-meniu {
+  background-image: url(../img/burger.png);
+  width: 35px;
+  height: 29px;
+  background-size: 35px;
+}
+
+.mentors .mentors-inner {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.mentors .mentors-inner h2 {
+  margin-bottom: 30px;
+}
+
+.mentors-foto .mentors-foto-inner a {
+  display: inline-block;
+  text-align: center;
+  width: 16%;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.mentors-foto .mentors-foto-inner a:hover {
+  transition: all 0.5s;
+  opacity: 0.7;
+}
+
+.mentors-foto .mentors-foto-inner a img {
+  width: 100%;
+  height: auto;
+}
+
+.mentors-foto .mentors-foto-inner a h3 {
+  color: #272727;
+  font-size: 20px;
+}
+
+.mentors-foto .mentors-foto-inner a span {
+  font-size: 14px;
+  color: #7c818f;
+}
+
+.mentors-foto .mentors-foto-inner a p {
+  font-size: 14px;
+  color: #d12a7e;
+  text-transform: uppercase;
+}
+
+.how-works .how-works-inner {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+.why.web-section {
+  background-image: url(../img/pink_bg.png);
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.why .why-right, .why-left {
+  padding: 100px 0px;
+  color: white;
+}
+
+.why.web-section h2 {
+  padding-bottom: 30px;
+}
+
+.program .program-inner h2 {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.months-foto-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.program .program-inner .months-foto {
+  width: 30%;
+  padding: 20px 40px;
+}
+
+.program .program-inner .months-foto .img-wrapper {
+  min-height: 230px;
+}
+
+.program .program-inner .months-foto img {
+  width: 100%;
+  height: auto;
+}
+
+.program .program-inner .months-foto h2 {
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.program .program-inner .months-foto p {
+  text-align: left;
+}
+
+.team .team-left h2 {}
+
+.team .team-sponsor img {
+  width: 35%;
+  height: auto;
+}
+
+.team .team-right p {
+  margin: auto;
+}
+
+.team-foto .team-foto-inner {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.team-foto .team-foto-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.team-foto .team-foto-inner h2 {
+  line-height: 1;
+  font-size: 20px;
+}
+
+.team-foto .team-foto-inner .social img {
+  width: 20px;
+  height: auto;
+}
+
+.team-foto .team-foto-inner p {
+  margin-bottom: 0;
+}
+
+.sponsors h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sponsors img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 180px;
+}
+
+.aplication .aplication-left p {
+  margin-bottom: 55px;
+}
+
+.aplication .aplication-left input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px 70px;
+  margin-bottom: 40px;
+  outline: none;
+}
+
+.aplication .aplication-left b {
+  color: grey;
+}
+
+.aplication button {
+  padding: 15px 17px;
+  background-color: #EA3799;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.aplication .aplication-right img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #243770;
+  color: white;
+}
+
+footer .inner {
+  width: 90%;
+  margin: auto;
+
+}
+footer .topfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  line-height: 1.5;
+
+}
+
+footer .inner .icon {
+  width: 15px;
+  height: 15px;
+}
+
+footer h3 {
+  font-size: 20px;
+  padding-top:
+}
+
+footer h4 {
+  padding-top: 50px;
+}
+
+footer .email {
+  padding-bottom: 50px;
+}
+
+footer .midinner a {
+  text-transform: uppercase;
+  color: lightgrey;
+}
+
+footer .midinner a:not(:last-child) {
+  margin-right: 25px;
+}
+
+footer .inner .rightinner img {
+  width: 25px;
+  height: 25px;
+}
+
+footer .inner .rightinner img:not(:last-child) {
+  margin-right: 15px;
+}
+
+footer .bottomfooter {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding:30px 0px;
+}
+
+footer a.dizainas {
+  padding-right: 20px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+footer .bottomfooter .bottomfooter-right {
+  color: grey;
+}
+.mygtukas {
+  padding: 15px 25px;
+  background: #181818;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.mygtukas:hover {
+  opacity: 0.7;
+  transition: all 0.3s;
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 992px) {
+  .meniu-wrapper ul li a {
+    padding: 10px 10px;
+  }
+
+  .team-foto .team-foto-inner {
+    width: 30%;
+  }
+
+  .mentors-foto .mentors-foto-inner a {
+    width: 19%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .meniu-wrapper {
+    display: none;
+  }
+
+  .how-works .how-works-inner {
+    width: 90%;
+  }
+
+  div#menu-mobile-toggle {
+    position: absolute;
+    top: 77px;
+    width: 100%;
+    left: 0px;
+    background-color: #fff;
+  }
+
+  .sticky div#menu-mobile-toggle {
+    top: 55px;
+  }
+
+  .meniu-wrapper ul li {
+    display: block;
+    text-align: left;
+  }
+
+  .meniu-wrapper ul li a {
+    padding: 10px 10px;
+    display: block;
+  }
+
+  .header-inner {
+    justify-content: space-between;
+  }
+
+  .mentors .mentors-inner {
+    width: 100%;
+  }
+
+  .mentors-foto .mentors-foto-inner a {
+    width: 32%;
+  }
+
+  .program .program-inner .months-foto {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mentors-foto .mentors-foto-inner a {
+    width: 48%;
+  }
+
+  .program .program-inner .months-foto {
+    width: 100%;
+  }
+
+  .team-foto .team-foto-inner {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-itb-meniu {
+    display: none;
+  }
+
+  .empowering-text p {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .empowering-text p {
+    width: 70%;
+  }
+
+  .container {
+    max-width: 1170px;
+  }
+}
